@@ -1,7 +1,5 @@
 package com.toys1.accesstoys.test;
 
-//ADDED A COMMENT
-
 import org.junit.Assert;
 import org.junit.Test;
 
