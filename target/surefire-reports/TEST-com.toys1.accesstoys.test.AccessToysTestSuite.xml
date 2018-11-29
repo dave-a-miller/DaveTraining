@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="com.toys1.accesstoys.test.AccessToysTestSuite" time="17.959" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="com.toys1.accesstoys.test.AccessToysTestSuite" time="21.654" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -22,7 +22,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\2959\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -30,19 +30,19 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\Maven\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Maven\bin;C:\Program Files\Maven\bin;C:\Program Files\Git\cmd;C:\Users\2959\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Maven\bin;C:\Program Files\Maven\bin;C:\Program Files\Git\cmd;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="maven.conf" value="C:\Program Files\Maven\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Program Files\Maven\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\2959"/>
+    <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
     <property name="user.timezone" value="Australia/Sydney"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="2959"/>
+    <property name="user.name" value="SGH122S8LY$"/>
     <property name="java.class.path" value="C:\Program Files\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -55,24 +55,22 @@
     <property name="java.version" value="1.8.0_181"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Program Files\Maven\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.toys1.accesstoys.test.CartPageTests" name="modifyCartContentsTest" time="2.836"/>
+  <testcase classname="com.toys1.accesstoys.test.CartPageTests" name="modifyCartContentsTest" time="2.766"/>
   <testcase classname="com.toys1.accesstoys.test.CartPageTests" name="verifyCartCountTest" time="0.479"/>
-  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="invalidFieldsTest" time="1.175"/>
-  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="mandatoryFieldsTest" time="0.996"/>
-  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="submitSuccessTest" time="6.737"/>
-  <testcase classname="com.toys1.accesstoys.test.LoginPageTest" name="validLoginTest" time="4.375"/>
-  <testcase classname="com.toys1.accesstoys.test.LoginPageTest" name="invalidLoginTest" time="0.331"/>
-  <testcase classname="com.toys1.accesstoys.test.ShopPageTest" name="validateProductPriceCorrect" time="0.827"/>
-  <testcase classname="com.toys1.accesstoys.test.ShopPageTest" name="validateProductNameCorrect" time="0.203"/>
+  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="invalidFieldsTest" time="1.118"/>
+  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="mandatoryFieldsTest" time="0.941"/>
+  <testcase classname="com.toys1.accesstoys.test.ContactPageTest" name="submitSuccessTest" time="10.794"/>
+  <testcase classname="com.toys1.accesstoys.test.LoginPageTest" name="validLoginTest" time="4.249"/>
+  <testcase classname="com.toys1.accesstoys.test.LoginPageTest" name="invalidLoginTest" time="0.344"/>
+  <testcase classname="com.toys1.accesstoys.test.ShopPageTest" name="validateProductPriceCorrect" time="0.815"/>
+  <testcase classname="com.toys1.accesstoys.test.ShopPageTest" name="validateProductNameCorrect" time="0.148"/>
 </testsuite>

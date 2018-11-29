@@ -29,7 +29,7 @@ public class CartPageTests extends BaseTestSuite {
 			shopPage.addItem(item1);
 			
 			//Verify that the cart count (top right hand corner) is 1
-			Assert.assertEquals("Check cart has 1 item", "1", cartPage.checkCart());
+			Assert.assertEquals("Check cart has 1 item", "5", cartPage.checkCart());
 			//Take a screenshot
 			//screenie.screenShot("verifyCartCountTest_1 Item Added");
 			
