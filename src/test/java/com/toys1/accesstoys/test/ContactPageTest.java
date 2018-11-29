@@ -76,8 +76,8 @@ public class ContactPageTest extends BaseTestSuite{
 		//verify contact page success message
 		Assert.assertEquals("Success message", "Thanks MEL, we appreciate your feedback.", contactPage.getSuccessMessage());
 
-		String str1 = driver.findElement(By.className("alert-success")).getText();
-		System.out.println(str1);
+		//String str1 = driver.findElement(By.className("alert-success")).getText();
+		//System.out.println(str1);
 	}
 
 }
